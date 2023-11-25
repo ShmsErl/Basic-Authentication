@@ -1,0 +1,18 @@
+<html  xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>BurakKUTBAY.com Spring Örnek Uygulama</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<body>
+<div class="container">
+    <h2 th:text="${name}"/>
+    <div class="margin-top20 text-center"><a th:href="@{/register}">KAYIT OL</a></div>
+
+    <div class="margin-top20 text-center"><a th:href="@{/login}">GİRİŞ YAP</a></div>
+
+
+</div>
+</body>
+</html>
